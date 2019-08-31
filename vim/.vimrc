@@ -13,7 +13,7 @@ call plug#begin('~/.vim/plugged')
 Plug 'vim-airline/vim-airline'
 Plug 'tpope/vim-fugitive'
 Plug 'sheerun/vim-polyglot'
-Plug 'drewtempelmeyer/palenight.vim'
+Plug 'arcticicestudio/nord-vim'
 
 call plug#end()
 "}}}
@@ -22,8 +22,7 @@ call plug#end()
 " }}}
 
 " Colors {{{
-set background=dark
-colorscheme palenight
+colorscheme nord
 " }}}
 
 " Settings {{{

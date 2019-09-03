@@ -11,14 +11,15 @@ endif
 call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
-Plug 'tpope/vim-fugitive'
 Plug 'sheerun/vim-polyglot'
 Plug 'arcticicestudio/nord-vim'
+Plug 'ctrlpvim/ctrlp.vim'
 
 call plug#end()
 "}}}
 
 " Plugins config {{{
+let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|certs'
 " }}}
 
 " Colors {{{
@@ -31,6 +32,11 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+" }}}
+
+
+" Remaping{{{
+nnoremap <esc> :noh<return><esc>
 " }}}
 
 " Basics {{{

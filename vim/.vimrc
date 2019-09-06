@@ -12,8 +12,8 @@ call plug#begin('~/.vim/plugged')
 
 Plug 'vim-airline/vim-airline'
 Plug 'sheerun/vim-polyglot'
-Plug 'arcticicestudio/nord-vim'
 Plug 'ctrlpvim/ctrlp.vim'
+Plug 'dracula/vim', { 'as': 'dracula' }
 
 call plug#end()
 "}}}
@@ -23,7 +23,7 @@ let g:ctrlp_custom_ignore = 'node_modules\|DS_Store\|git\|certs'
 " }}}
 
 " Colors {{{
-colorscheme nord
+colorscheme dracula
 " }}}
 
 " Settings {{{
@@ -33,7 +33,6 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 " }}}
-
 
 " Remaping{{{
 nnoremap <esc> :noh<return><esc>

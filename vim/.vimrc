@@ -32,10 +32,14 @@ set tabstop=2
 set shiftwidth=2
 set softtabstop=2
 set expandtab
+set noshowmode
 " }}}
 
 " Remaping{{{
+
+" Clear search highlighting
 nnoremap <esc> :noh<return><esc>
+
 " }}}
 
 " Basics {{{

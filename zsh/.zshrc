@@ -69,7 +69,7 @@ ZSH_THEME="agnoster"
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git)
+plugins=(git zsh-completions)
 
 source $ZSH/oh-my-zsh.sh
 
@@ -101,3 +101,4 @@ source $ZSH/oh-my-zsh.sh
 test -r "~/.dir_colors" && eval $(dircolors ~/.dir_colors)
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+source /usr/share/fzf/shell/key-bindings.zsh

@@ -34,6 +34,7 @@ set softtabstop=2
 set expandtab
 set noshowmode
 set hidden
+set invlist
 " }}}
 
 " Remaping{{{
@@ -48,14 +49,4 @@ filetype plugin on
 syntax enable
 set relativenumber
 language en_US.UTF-8
-" }}}
-
-" Bad habits breaker {{{
-
-" Don't use arrow keys
-noremap <Up> <NOP>
-noremap <Down> <NOP>
-noremap <Left> <NOP>
-noremap <Right> <NOP>
-
 " }}}

@@ -1,0 +1,9 @@
+#!/usr/bin/env sh
+
+xinput set-prop 11 316 -1
+xset r rate 300 50 &
+xinput --disable 10
+xcompmgr &
+remaps &
+unclutter &
+xwallpaper --zoom ~/.config/wallpaper.jpg

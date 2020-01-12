@@ -1,2 +1,11 @@
-plugged/
-.netrwhist
+*
+
+!.config
+!.vim
+!repos
+!.Xresources
+!.gitignore
+!.xinitrc
+!.xprofile
+!.zprofile
+!.profile

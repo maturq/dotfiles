@@ -376,7 +376,7 @@ c.colors.tabs.selected.even.bg = '#282a36'
 # Default monospace fonts. Whenever "monospace" is used in a font
 # setting, it's replaced with the fonts listed here.
 # Type: Font
-c.fonts.monospace = 'Inconsolata'
+c.fonts.default_family = 'Inconsolata'
 
 # Font used in the completion widget.
 # Type: Font

@@ -12,3 +12,11 @@ settings:
     global: false
   downloads.location.directory:
     global: /home/maxime/downloads
+  fonts.web.family.cursive:
+    global: Arial
+  fonts.web.family.sans_serif:
+    global: Arial
+  fonts.web.family.serif:
+    global: Arial
+  fonts.web.family.standard:
+    global: Arial

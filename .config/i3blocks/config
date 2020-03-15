@@ -10,10 +10,6 @@
 separator=true
 separator_block_width=15
 
-[battery]
-command=echo "$(cat /sys/class/power_supply/BAT0/capacity)%"
-interval=1
-
 [time]
 command=date '+%A %d %b - %I:%M %p '
 interval=1

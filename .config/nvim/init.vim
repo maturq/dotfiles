@@ -39,7 +39,9 @@ let g:ale_fix_on_save = 1
 set foldmethod=marker
 set noshowmode
 set hidden
-set invlist
+set expandtab
+set tabstop=2
+set shiftwidth=2
 
 " }}}
 
